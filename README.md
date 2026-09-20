@@ -7,6 +7,9 @@ A low-level C systems program demonstrating custom heap memory allocation tracki
 * **POSIX Process Control:** Orchestrates isolated process execution using `fork()`, context swapping via `execvp()`, and parent state synchronization using `waitpid()` with status macro evaluations (`WIFEXITED`, `WEXITSTATUS`).
 * **Signal Handling:** Configures POSIX signal handlers with `sigaction()` to safely trap and handle asynchronous interrupts (`SIGINT`) without unhandled runtime aborts.
 
+## Program Output
+![Execution Output](output.png)
+
 ## Build and Run (Linux / Unix / WSL)
 
 1. **Clone the repository:**
